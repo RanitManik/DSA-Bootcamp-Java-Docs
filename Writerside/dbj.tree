@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="dbj"
+                 name="DSA Bootcamp Java"
+                 start-page="01-git.md">
+
+    <toc-element topic="01-git.md"/>
+    <toc-element topic="02-intro to programming.md"/>
+    <toc-element topic="03-flow of program.md"/>
+    <toc-element topic="04-introduction to java.md"/>
+    <toc-element topic="05-first-java-program.md"/>
+    <toc-element topic="06-conditions-loops.md"/>
+</instance-profile>
