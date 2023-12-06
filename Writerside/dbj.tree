@@ -12,4 +12,6 @@
     <toc-element topic="04-introduction to java.md"/>
     <toc-element topic="05-first-java-program.md"/>
     <toc-element topic="06-conditions-loops.md"/>
+    <toc-element topic="07-methods.md"/>
+    <toc-element topic="08-arrays.md"/>
 </instance-profile>

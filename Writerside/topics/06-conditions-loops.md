@@ -1,6 +1,6 @@
 # Conditional Statements and Loops
 
-### 1. **If-Else Statement:**
+## If-Else Statement
 
 - Used to check Boolean conditions (True or False).
 - **Syntax:**
@@ -27,7 +27,7 @@
   ```
 - **Output:** 27400
 
-### 2. **Multiple If-Else Statement:**
+## Multiple If-Else Statement
 
 - Executes one condition from multiple statements.
 - **Syntax:**
@@ -60,7 +60,7 @@
   ```
 - **Output:** 28400
 
-### 3. **Loops:**
+## Loops
 
 - **For Loop:**
     - Used when the number of iterations is known.
@@ -146,13 +146,16 @@
 
 - **Comparison between While Loop and Do-While Loop:**
 
-  | While Loop                                              | Do-While Loop                                            |
-  |---------------------------------------------------------|----------------------------------------------------------|
-  | Used when the number of iterations is not fixed         | Used when we want to execute the statement at least once |
-  | Entry-controlled loop                                   | Exit-controlled loop                                     |
-  | No semicolon required at the end of `while (condition)` | Semicolon is required at the end of `while (condition)`  |
+| While Loop                                              | Do-While Loop                                            |
+|---------------------------------------------------------|----------------------------------------------------------|
+| Used when the number of iterations is not fixed         | Used when we want to execute the statement at least once |
+| Entry-controlled loop                                   | Exit-controlled loop                                     |
+| No semicolon required at the end of `while (condition)` | Semicolon is required at the end of `while (condition)`  |
 
-### 4. **Largest of Three Numbers:**
+## Programs
+
+### 🎯 Program: Largest of Three Numbers
+
 - **Problem Statement:** "Find largest among three numbers."
 - **Approach 1:**
   ```java
@@ -213,7 +216,7 @@
 - **Input:** 3 6 5
 - **Output:** 6
 
-### 5. **Alphabet Case Check:**
+### 🎯 Program: Alphabet Case Check
 
 - **Problem Statement:**
   "Take an input character from the keyboard and check whether it is an uppercase alphabet or lowercase alphabet."
@@ -237,7 +240,7 @@
 - **Input:** Z
 - **Output:** Uppercase
 
-### 6. **Fibonacci Numbers:**
+### 🎯 Program: Fibonacci Numbers
 
 - **Problem Statement:** "Find the nth Fibonacci number."
 - **Example:**
@@ -261,9 +264,10 @@
 - **Input:** 7
 - **Output:** 13
 
-### 7. **Counting Occurrence:**
+### 🎯 Program: Counting Occurrence
 
-- **Problem Statement:** "Input two numbers, find how many times the second number's digit is present in the first number."
+- **Problem Statement:** "Input two numbers, find how many times the second number's digit is present in the first
+  number."
 - **Example:**
   ```java
   import java.util.Scanner;
@@ -287,7 +291,7 @@
 - **Input:** 45535 5
 - **Output:** 3
 
-### 8. **Reverse a Number:**
+### 🎯 Program: Reverse a Number
 
 - **Problem Statement:** "Input a number from the keyboard and show the output as the reverse of that number."
 - Example:
@@ -310,7 +314,7 @@
 - **Input:** 458792
 - **Output:** 297854
 
-### 9. **Calculator Program:**
+### 🎯 Program: Calculator Program
 
 - Example of a simple calculator program.
 - Input and output are managed until the user presses 'X' or 'x'.
@@ -358,6 +362,10 @@
    }
    ```
 
-## 10. Conclusion:
+## Conclusion
 
-To wrap up, diving into Conditional Statements and Loops equips you with essential tools for effective programming. The covered topics, from basic If-Else statements to versatile loops, offer practical solutions for various scenarios. The hands-on examples, like finding the largest number or building a basic calculator, reinforce your skills and prepare you for real-world coding challenges. In a nutshell, this learning journey sets a strong foundation for making informed decisions and handling repetitive tasks in Java programming.
+To wrap up, diving into Conditional Statements and Loops equips you with essential tools for effective programming. The
+covered topics, from basic If-Else statements to versatile loops, offer practical solutions for various scenarios. The
+hands-on examples, like finding the largest number or building a basic calculator, reinforce your skills and prepare you
+for real-world coding challenges. In a nutshell, this learning journey sets a strong foundation for making informed
+decisions and handling repetitive tasks in Java programming.

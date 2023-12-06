@@ -1,6 +1,6 @@
 # first java program
 
-## 1. First Java Program
+## First Java Program
 
 ### Structure of Java File
 
@@ -17,7 +17,7 @@ The javac compiler is used to convert a .java file to a .class file containing b
 javac Main.java
 ```
 
-## 2. Running the Program
+## Running the Program
 
 ### Hello World Program
 
@@ -48,7 +48,7 @@ Explanation:
 * A package in Java is a folder containing Java files.
 * It provides organizational rules for programs.
 
-## 3. Primitive Data Types
+## Primitive Data Types
 
 Primitive data types in Java are non-breakable and include `int`, `char`, `float`, `double`, and `long`. These represent
 integer, character, floating-point, double-precision, and long integer values, respectively. Boolean stores only `true`
@@ -94,12 +94,12 @@ double pi = 3.14;  // 3.14 is a literal of type double.
 
   ```
 
-## 4. Comments in Java
+## Comments in Java
 
 Comments in Java are written in the source code but ignored by the compiler. There are single-line comments (`//`) and
 multi-line comments (`/* */`).
 
-## 5. Inputs in Java
+## Inputs in Java
 
 The `Scanner` class in `java.util` is used to take input. To use it:
 
@@ -123,7 +123,7 @@ public class Main{
 - `next()`: Takes one word input until a space occurs.
 - `nextLine()`: Takes the entire string input, including spaces.
 
-## 6. Sum of Two Numbers
+## Sum of Two Numbers
 
 ```java
 import java.util.Scanner;
@@ -140,7 +140,7 @@ public class Sum {
 }
 ```
 
-## 7. Type Conversion & Type casting
+## Type Conversion & Type casting
 
 ### Type Conversion
 
@@ -201,7 +201,7 @@ In summary, type conversion is a broader term that includes both implicit (autom
 while type casting specifically refers to the explicit conversion performed by the programmer. The choice of which term
 to use may depend on the context and the level of control the programmer has over the conversion process.
 
-## 8. Automatic Type Promotion in Expressions
+## Automatic Type Promotion in Expressions
 
 In Java, automatic type promotion occurs when evaluating expressions. For example, byte, short, or char operands are
 promoted to int, and if one operand is long, float, or double, the entire expression is promoted accordingly.
@@ -214,7 +214,7 @@ int d = (a * b) / c;
 System.out.println(d);
 ```
 
-## 9. Conclusion
+## Conclusion
 
 These topics cover the basics of Java programming, a widely-used language for developing applications. Java is
 platform-independent, meaning it can run on any operating system without modifications. Understanding these topics will
