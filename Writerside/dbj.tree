@@ -11,8 +11,9 @@
     <toc-element topic="03-flow of program.md"/>
     <toc-element topic="04-introduction to java.md"/>
     <toc-element topic="05-first java program.md"/>
-    <toc-element topic="05_Extra-02-datatypes.md"/>
-    <toc-element topic="05_Extra-01-Operators in JAVA.md"/>
+    <toc-element topic="05_Extra-01-datatypes.md"/>
+    <toc-element topic="05-Extra-02-variables-md.md"/>
+    <toc-element topic="05_Extra-03-Operators in JAVA.md"/>
     <toc-element topic="06-conditions-loops.md"/>
     <toc-element topic="07-methods.md"/>
     <toc-element topic="08-arrays.md"/>
