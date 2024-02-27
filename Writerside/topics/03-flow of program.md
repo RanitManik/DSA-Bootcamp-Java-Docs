@@ -15,18 +15,47 @@ symbols to depict different elements in the flow of a program:
 
 1. **Example 1:**
     - Task: Take a name and output "Hello, name."
-    - Flow Chart: (Start) → (Input name) → (Processing: Output "Hello, name") → (Stop)
+    - Flow Chart:
+         ```mermaid
+      graph TD
+      A(Start) --> B(Input name)
+      B --> C(Process: Output 'Hello, name')
+      C --> D(Stop)
+        
+      ```
 
 2. **Example 2:**
-    - Task: Take input of a salary. If the salary is greater than 10,000, add a bonus of 2000; otherwise, add a bonus of
-        1000.
-    - Flow Chart: (Start) → (Input Salary) → (Condition: Salary > 10000?) → (Processing: Salary = Salary + 2000 or
-      Salary = Salary + 1000) → (Output Salary) → (Stop)
+    - Task: Take input of a salary. If the salary is greater than `10,000`, add a bonus of `2000`; otherwise, add a
+      bonus
+      of `1000`.
+    - Flow Chart:
+   ```mermaid
+      graph TD
+      A(Start) --> B(Input Salary)
+      B --> C(Condition: Salary > 10000?)
+      C -->|Yes| D(Process: Salary = Salary + 2000)
+      C -->|No| E(Process: Salary = Salary + 1000)
+      D --> F(Output Salary)
+      E --> F
+      F --> G(Stop)
+        
+      ```
 
 3. **Example 3:**
     - Task: Input a number and print whether it is prime or not.
-    - Flow Chart: (Start) → (Input num) → (Condition: num ≤ 1?) → (Processing: Print "Neither prime nor composite") → (
-      Condition: Loop through factors) → (Processing: Print "Not Prime" or Print "Prime") → (Stop)
+    - Flow Chart: 
+   ```mermaid
+   graph TD
+   A(Start) --> B(Input num)
+   B --> C(Condition: num <= 1?)
+   C -->|Yes| D(Process: Print Neither prime nor composite)
+   C -->|No| E(Condition: Loop through factors)
+   E -->|Not Prime| F(Process: Print Not Prime)
+   E -->|Prime| G(Process: Print Prime)
+   D --> H(Stop)
+   F --> H
+   G --> H
+   ```
 
 ## Pseudocode
 

@@ -56,6 +56,36 @@
         - Translates portions of Java bytecode into native machine code at runtime.
         - Enhances the execution speed of Java applications.
 
+```mermaid
+graph TD
+    subgraph JDK
+        A[JDK]
+        B[JRE]
+        C[Development Tools]
+    end
+
+    subgraph JRE
+        D[JRE]
+        E[JVM]
+        F[Library Classes]
+    end
+
+    subgraph JVM
+        G[JVM]
+    end
+
+    subgraph JIT
+        H[JIT]
+    end
+
+    A -->|Contains| B
+    A -->|Contains| C
+    D -->|Consists of| E
+    D -->|Consists of| F
+    G -->|Executes| E
+    G -->|Uses JIT| H
+
+```
 ### Relationship Between Components
 
 - **JDK = JRE + Development Tools**
@@ -93,35 +123,6 @@ This visual representation illustrates the flow of components during the runtime
 loads classes, the Bytecode Verifier ensures their integrity, the Interpreter executes bytecode, and the Runtime manages
 overall program execution. All these components interact with the underlying Hardware.
 
-```
-+-----------------------------------+
-|            Application            |
-|    +------------------------+     |
-|    |      Class Loader      |     |
-|    +------------------------+     |
-|                |                |
-|                v                |
-|    +------------------------+     |
-|    |   Bytecode Verifier    |     |
-|    +------------------------+     |
-|                |                |
-|                v                |
-|    +------------------------+     |
-|    |       Interpreter      |     |
-|    +------------------------+     |
-|                |                |
-|                v                |
-|    +------------------------+     |
-|    |        Runtime         |     |
-|    +------------------------+     |
-|                |                |
-|                v                |
-|    +------------------------+     |
-|    |        Hardware        |     |
-|    +------------------------+     |
-+-----------------------------------+
-```
-
 ### Class Loader (How JVM Works)
 
 1. **Loading:**
@@ -152,13 +153,42 @@ overall program execution. All these components interact with the underlying Har
 
 ## Working of Java Architecture
 
-This image demonstrates the flow from Java source code to execution on hardware. The Java source code is
+This diagram demonstrates the flow from Java source code to execution on hardware. The Java source code is
 compiled
 using the Java Development Kit (JDK) to produce bytecode. The Java Runtime Environment (JRE) provides the Java Virtual
 Machine (JVM), which interprets the bytecode and, in some cases, uses Just-In-Time Compilation for optimized execution
 on the underlying hardware.
 
-<img src="https://www.edureka.co/blog/wp-content/uploads/2019/07/q.png" alt="working of JAVA architecture"/>
+```mermaid
+graph TD
+    subgraph SourceCode
+        A[Java Source Code]
+    end
+
+    subgraph JDK
+        B[JDK]
+        C[Compiler]
+        D[Bytecode]
+    end
+
+    subgraph JRE
+        E[JRE]
+        F[JVM]
+        G[Hardware]
+    end
+
+    subgraph JIT
+        H[JIT Compilation]
+    end
+
+    A -->|Compiled using| C
+    C -->|Produces| D
+    D -->|Interpreted by| F
+    F -->|Executes on| G
+    F -->|Uses| H
+
+```
+
 ## Tools Required to Run Java on a Machine
 
 1. **JDK (Java Development Kit):**
