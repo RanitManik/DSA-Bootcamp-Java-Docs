@@ -14,7 +14,7 @@ Linear Search is a straightforward searching algorithm that traverses a list seq
 iterates through each element until a match is found or the entire list is searched. While not the most efficient
 algorithm for large datasets, it is easy to implement and applicable in various scenarios.
 
-<img src="https://miro.medium.com/v2/resize:fit:960/1*JKAotHLxIfO9GH5iQRnH4A.jpeg" alt="linear search image" border-effect="rounded"/>
+<img src="https://miro.medium.com/v2/resize:fit:960/1*JKAotHLxIfO9GH5iQRnH4A.jpeg" alt="linear search" border-effect="rounded"/>
 
 ## Linear Search Algorithm
 
